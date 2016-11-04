@@ -1,0 +1,28 @@
+body{
+  background-color:#1F1F1F;
+}
+
+.animated{
+  position: fixed;
+  top: 30vh;
+  left: 40vw;
+  height: 20vw;
+  width:  20vw;
+  background-color:#1F1F1F;
+  animation: darkshape linear 10s infinite;
+}
+
+.btn{
+  position: fixed;
+  z-index: 1;
+  float: right;
+  margin: 1em;
+  width: 4em;
+  height: 4em;
+}
+
+#canvas{
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+}
